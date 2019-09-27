@@ -4,14 +4,14 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './global/css/style.css';
 
-import Login from './pages/login/login';
+import WorkersList from './pages/workers-list/workers-list';
 
 function App() {
     return (
         <Router>
             <div className="App">
-                <Route path="/" exact component={Login} />
-                {/*<Route path="/table" component={Table} />*/}
+                {/*<Route path="/" exact component={Login} />*/}
+                <Route path="/workers-list" component={WorkersList} />
             </div>
         </Router>
     );

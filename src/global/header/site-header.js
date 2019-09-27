@@ -29,6 +29,23 @@ const SiteHeader = () => {
           <span className="navbar-toggler-icon" />
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav mr-auto">
+            <li className="nav-item">
+              <Link className="nav-link" to="/login">
+                Вход/выход
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/login">
+                Работники
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/profile">
+                Профиль работника
+              </Link>
+            </li>
+          </ul>
         </div>
       </nav>
     </div>

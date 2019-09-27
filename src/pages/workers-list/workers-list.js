@@ -2,7 +2,7 @@ import React from 'react';
 import SiteHeader from '../../global/header/site-header';
 import SiteContent from './site-content/site-content';
 
-class Login extends React.Component {
+class WorkersList extends React.Component {
   render() {
     return (
       <div className="page">
@@ -13,4 +13,4 @@ class Login extends React.Component {
   }
 }
 
-export default Login;
+export default WorkersList;

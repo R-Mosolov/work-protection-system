@@ -28,7 +28,7 @@ const SiteContent = () => {
                   <th>ФИО сотрудника</th>
                   <th>Отдел</th>
                   <th>Должность</th>
-                  <th>Статус</th>
+                  <th>Состояние</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -37,7 +37,7 @@ const SiteContent = () => {
                   <td>Отдел кадров</td>
                   <td>HR-специалист</td>
                   <td>
-                    <Badge color="success">На работе</Badge>
+                    <Badge color="success">Работоспособен</Badge>
                   </td>
                 </tr>
                 <tr>
@@ -45,7 +45,7 @@ const SiteContent = () => {
                   <td>Отдел релокации</td>
                   <td>Менеджер</td>
                   <td>
-                    <Badge color="danger">Уволен</Badge>
+                    <Badge color="danger">Болеет</Badge>
                   </td>
                 </tr>
                 <tr>
@@ -61,7 +61,7 @@ const SiteContent = () => {
                   <td>Бухгалтерия</td>
                   <td>Бухгалтер</td>
                   <td>
-                    <Badge color="warning">Едет в офис</Badge>
+                    <Badge color="warning">Имеет увечье</Badge>
                   </td>
                 </tr>
                 <tr>
@@ -69,7 +69,7 @@ const SiteContent = () => {
                   <td>Отдел питания</td>
                   <td>Повар</td>
                   <td>
-                    <Badge color="success">На работе</Badge>
+                    <Badge color="success">Работоспособен</Badge>
                   </td>
                 </tr>
                 </tbody>

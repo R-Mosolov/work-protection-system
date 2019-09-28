@@ -41,7 +41,7 @@ const SiteContent = () => {
                   <td className="text-center">750</td>
                 </tr>
                 <tr>
-                  <td>Братья Ибрагимовы</td>
+                  <td>Ибрагимов и партнёры</td>
                   <td>Кросноярск</td>
                   <td className="text-center">2</td>
                   <td className="text-center">300</td>

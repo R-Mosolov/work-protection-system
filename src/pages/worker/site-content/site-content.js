@@ -3,7 +3,7 @@ import React from 'react';
 import './css/desktop.css';
 import WorkerImage from './img/engineer.svg';
 import HeartRate from './img/heart-rate.svg';
-import Temperature from './img/thermometer.svg';
+import Temperature from './img/temperature.svg';
 
 const SiteContent = () => {
   return (

@@ -1,10 +1,14 @@
 import React from 'react';
 
-import './css/desktop.css';
+import './css/style.css';
+import Configurator from './img/configuration.svg';
 
 const SiteContent = () => {
   return (
-    <div className="settings">
+    <div className="settings d-flex">
+      <div className="d-flex justify-content-center align-items-center w-50">
+          <img src={Configurator} alt="Изображение конфигуратора" style={{height: 450, width: 450}}/>
+      </div>
       <div className="container__position d-flex justify-content-center align-items-center">
         <div className="layout-positioner">
           <form className="px-4 py-3">

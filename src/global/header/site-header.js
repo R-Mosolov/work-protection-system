@@ -31,18 +31,18 @@ const SiteHeader = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item">
-              <Link className="nav-link" to="/">
-                Вход/выход
-              </Link>
-            </li>
-            <li className="nav-item">
               <Link className="nav-link" to="/workers-list">
                 Работники
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/worker">
-                Профиль работника
+              <Link className="nav-link" to="/companies">
+                Предприятия
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/">
+                Настройки
               </Link>
             </li>
           </ul>

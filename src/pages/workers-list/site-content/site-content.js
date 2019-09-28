@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './css/desktop.css';
 import {
@@ -7,9 +8,6 @@ import {
   CardBody,
   CardHeader,
   Col,
-  Pagination,
-  PaginationItem,
-  PaginationLink,
   Table
 } from "reactstrap";
 
@@ -19,81 +17,77 @@ const SiteContent = () => {
         <Col xs="12" lg="6">
           <Card>
             <CardHeader>
-              <i className="fa fa-align-justify"></i> Таблица сотрудников
+              <i className="fa fa-align-justify"/> Таблица сотрудников
             </CardHeader>
             <CardBody>
               <Table responsive>
                 <thead>
                 <tr>
-                  <th>ФИО сотрудника</th>
-                  <th>Отдел</th>
-                  <th>Должность</th>
-                  <th>Состояние</th>
+                  <th className="align-middle text-center">ФИО сотрудника</th>
+                  <th className="align-middle text-center">Отдел</th>
+                  <th className="align-middle text-center">Должность</th>
+                  <th className="align-middle text-center">Состояние</th>
+                  <th className="align-middle text-center">ID устройства</th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
-                  <td>Анна Павлова</td>
+                  <td className="p-0 m-0 align-middle">
+                    <Link className="nav-link" to="/worker">Анна Павлова</Link>
+                  </td>
                   <td>Отдел кадров</td>
                   <td>HR-специалист</td>
                   <td>
                     <Badge color="success">Работоспособен</Badge>
                   </td>
+                  <td>ХХХ-ХХХ</td>
                 </tr>
                 <tr>
-                  <td>Анатолий Ветров</td>
+                  <td className="p-0 m-0 align-middle">
+                    <Link className="nav-link" to="/worker">Анатолий Ветров</Link>
+                  </td>
                   <td>Отдел релокации</td>
                   <td>Менеджер</td>
                   <td>
-                    <Badge color="danger">Болеет</Badge>
+                    <Badge color="danger">Тревога</Badge>
                   </td>
+                  <td>ХХХ-ХХХ</td>
                 </tr>
                 <tr>
-                  <td>Илья Самойлов</td>
+                  <td className="p-0 m-0 align-middle">
+                    <Link className="nav-link" to="/worker">Илья Самойлов</Link>
+                  </td>
                   <td>Главный цех</td>
                   <td>Фрезировщик</td>
                   <td>
                     <Badge color="secondary">Недоступен</Badge>
                   </td>
+                  <td>ХХХ-ХХХ</td>
                 </tr>
                 <tr>
-                  <td>Екатерина Борисова</td>
+                  <td className="p-0 m-0 align-middle">
+                    <Link className="nav-link" to="/worker">Екатерина Борисова</Link>
+                  </td>
                   <td>Бухгалтерия</td>
                   <td>Бухгалтер</td>
                   <td>
-                    <Badge color="warning">Имеет увечье</Badge>
+                    <Badge color="danger">Тревога</Badge>
                   </td>
+                  <td>ХХХ-ХХХ</td>
                 </tr>
                 <tr>
-                  <td>Жанна Ибрагимова</td>
+                  <td className="p-0 m-0 align-middle">
+                    <Link className="nav-link" to="/worker">Жанна Ибрагимова</Link>
+                  </td>
                   <td>Отдел питания</td>
                   <td>Повар</td>
                   <td>
                     <Badge color="success">Работоспособен</Badge>
                   </td>
+                  <td>ХХХ-ХХХ</td>
                 </tr>
                 </tbody>
               </Table>
-              <Pagination>
-                <PaginationItem>
-                  <PaginationLink previous tag="button"></PaginationLink>
-                </PaginationItem>
-                <PaginationItem active>
-                  <PaginationLink tag="button">1</PaginationLink>
-                </PaginationItem>
-                <PaginationItem>
-                  <PaginationLink tag="button">2</PaginationLink>
-                </PaginationItem>
-                <PaginationItem>
-                  <PaginationLink tag="button">3</PaginationLink>
-                </PaginationItem>
-                <PaginationItem>
-                  <PaginationLink tag="button">4</PaginationLink>
-                </PaginationItem>
-                <PaginationItem>
-                  <PaginationLink next tag="button"></PaginationLink>
-                </PaginationItem>
-              </Pagination>
             </CardBody>
           </Card>
         </Col>

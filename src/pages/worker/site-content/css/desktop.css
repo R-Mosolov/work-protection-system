@@ -1,3 +1,7 @@
 .login {
-    height: 80vh;
+    height: calc(100vh - 65px);
+}
+
+.place-title {
+    width: 540px;
 }

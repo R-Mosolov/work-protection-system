@@ -1,7 +1,29 @@
-.login {
+.worker {
     height: calc(100vh - 65px);
 }
 
-.place-title {
+.worker .place-title {
     width: 540px;
+}
+
+.worker .pulse,
+.worker .temperature {
+    height: calc(90vh - 65px);
+}
+
+.worker .indicator__number {
+    font-size: 150px;
+    color: red;
+}
+
+.worker .indicator__unit {
+    font-size: 30px;
+    line-height: 48px;
+    text-align: center;
+    color: red;
+    opacity: 0.66;
+}
+
+.worker .icon {
+    opacity: 0.66;
 }

@@ -13,7 +13,7 @@ import {
 
 const SiteContent = () => {
   return (
-    <div className="login d-flex justify-content-center align-items-center">
+    <div className="workers-list d-flex justify-content-center align-items-center">
         <Col xs="12" lg="6">
           <Card>
             <CardHeader>

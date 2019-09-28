@@ -2,7 +2,6 @@ import React from 'react';
 
 import './css/desktop.css';
 import {
-  Badge,
   Card,
   CardBody,
   CardHeader,
@@ -12,7 +11,7 @@ import {
 
 const SiteContent = () => {
   return (
-    <div className="login d-flex justify-content-center align-items-center">
+    <div className="companies-list d-flex justify-content-center align-items-center">
         <Col xs="12" lg="6">
           <Card>
             <CardHeader>

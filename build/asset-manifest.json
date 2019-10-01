@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.88d5f262.chunk.css",
+    "main.js": "/static/js/main.0e7ffb90.chunk.js",
+    "main.js.map": "/static/js/main.0e7ffb90.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.78869bc5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.78869bc5.js.map",
+    "static/css/2.0624914a.chunk.css": "/static/css/2.0624914a.chunk.css",
+    "static/js/2.5023744b.chunk.js": "/static/js/2.5023744b.chunk.js",
+    "static/js/2.5023744b.chunk.js.map": "/static/js/2.5023744b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.35f773ff814749571eed6557999e6080.js": "/precache-manifest.35f773ff814749571eed6557999e6080.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.0624914a.chunk.css.map": "/static/css/2.0624914a.chunk.css.map",
+    "static/css/main.88d5f262.chunk.css.map": "/static/css/main.88d5f262.chunk.css.map",
+    "static/media/companionship.svg": "/static/media/companionship.f0f0e53e.svg",
+    "static/media/configuration.svg": "/static/media/configuration.8d8a4a33.svg",
+    "static/media/employee.svg": "/static/media/employee.e631344b.svg",
+    "static/media/engineer.svg": "/static/media/engineer.13d99d8e.svg",
+    "static/media/enterprise.svg": "/static/media/enterprise.57a8beb6.svg",
+    "static/media/heart-rate.svg": "/static/media/heart-rate.05a926f2.svg",
+    "static/media/temperature.svg": "/static/media/temperature.01bcf565.svg"
+  }
+}
